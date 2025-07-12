@@ -24,7 +24,7 @@ public:
     virtual void accelerate() = 0;
     virtual void brake() = 0;
     virtual void stopEngine() = 0;
-    virtual ~Car() {}
+    virtual ~Car() {} //Destructor
 };
 
 /*
